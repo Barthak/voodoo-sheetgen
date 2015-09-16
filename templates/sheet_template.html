@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "/includes/i-w/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>${title}</title>
+	${script}
+	{foreach name=index item=s from=$styles}
+		<link rel="stylesheet" type="text/css" href="${prepath}/style/${index}" />
+	{/foreach}
+</head>
+
+<body>
+${content}
+</body>
+</html>

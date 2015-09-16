@@ -1,0 +1,228 @@
+${message}
+<form action="${prepath}/sheet/${sheetaction}/${type_or_id}" method="post">
+<input type="hidden" name="sheet[id]" value="${sheetid}" />
+<table width="725" class="table_white">
+	<tr>
+		<td width="100%">
+		<center><img src="${prepath}/images/sheetgen/mta_logo.gif" /></center>
+		<br>
+		<table width="100%">
+			<tr>
+				${Name}
+				${Concept}
+				${Path}
+			</tr>
+			<tr>
+				${Age}
+				${Virtue}
+				${Order}
+			</tr>
+			<tr>
+				${Player}
+				${Vice}
+				${Cabal}
+			</tr>
+		</table>
+		<br>
+		<table width="100%" cellpadding="4" cellspacing="1">
+			<tr>
+				<td class="td_grey" colspan="7" align="center"><span class="section_header">Attributes</span></td>
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Power</span></td>
+				${Intelligence}
+				${Strength}
+				${Presence}
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Finesse</span></td>
+				${Wits}
+				${Dexterity}
+				${Manipulation}
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Resistance</span></td>
+				${Resolve}
+				${Stamina}
+				${Composure}
+			</tr>
+		</table>
+		<br>
+		<table width="100%" cellpadding="0" cellspacing="1">
+			<tr>
+				<td valign="top" class="td_grey" style="padding: 4px;" align="center">
+					<span class="section_header">Skills</span></td>
+				<td valign="top" rowspan="4" style="background-color: #000000;" width="1"><img src="images/0.gif" width="1"></td>
+				<td valign="top" class="td_grey" style="padding: 4px;" colspan="2" align="center">
+					<span class="section_header">Other Traits</span></td>
+			</tr>
+			<tr>
+				<td valign="top" style="background-color: #000000;" align="center"><img src="images/0.gif" width="1"></td>
+				<td valign="top" style="background-color: #000000;" colspan="2"><img src="images/0.gif" width="1"></td>
+			</tr>
+			<tr>
+				<td style="padding: 4px;" valign="top" width="33%" rowspan="2">
+					<table width="100%" cellpadding="1" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Mental</span><br>
+								(-3 unskilled)
+							</td>
+						</tr>
+						<tr>${Academics}</tr>
+						<tr>${Computer}</tr>
+						<tr>${Crafts}</tr>
+						<tr>${Investigation}</tr>
+						<tr>${Medicine}</tr>
+						<tr>${Occult}</tr>
+						<tr>${Politics}</tr>
+						<tr>${Science}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Physical</span><br>
+								(-1 unskilled)
+							</td>
+						</tr>
+						<tr>${Athletics}</tr>
+						<tr>${Brawl}</tr>
+						<tr>${Drive}</tr>
+						<tr>${Firearms}</tr>
+						<tr>${Larceny}</tr>
+						<tr>${Stealth}</tr>
+						<tr>${Survival}</tr>
+						<tr>${Weaponry}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Social</span><br>
+								(-1 unskilled)
+							</td>
+						</tr>
+						<tr>${AnimalKen}</tr>
+						<tr>${Empathy}</tr>
+						<tr>${Expression}</tr>
+						<tr>${Intimidation}</tr>
+						<tr>${Persuasion}</tr>
+						<tr>${Socialize}</tr>
+						<tr>${Streetwise}</tr>
+						<tr>${Subterfuge}</tr>
+					</table>
+				</td>
+				<td style="padding: 4px;" valign="top" width="34%">
+					<table width="100%" cellpadding="1" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Merits</span></td>
+						</tr>
+						<tr>${merits1}</tr>
+						<tr>${merits2}</tr>
+						<tr>${merits3}</tr>
+						<tr>${merits4}</tr>
+						<tr>${merits5}</tr>
+						<tr>${merits6}</tr>
+						<tr>${merits7}</tr>
+						<tr>${merits8}</tr>
+						<tr>${merits9}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Flaws</span></td>
+						</tr>
+						<tr>${flaws1}</tr>
+						<tr>${flaws2}</tr>
+						<tr>${flaws3}</tr>
+						<tr><td colspan="2" align="center"><br><br /></td></tr>
+						<tr>${Size}</tr>
+						<tr>${Speed}</tr>
+						<tr>${InitiativeMod}</tr>
+						<tr>${Defense}</tr>
+						<tr>${Experience}</tr>
+					</table>
+				</td>
+				<td style="padding: 4px;" valign="top" width="33%">
+					<table width="100%" cellpadding="2" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Health</span></td>
+						</tr>
+						<tr>${Healthdots}</tr>
+						<tr>${Healthcheck}</tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Willpower</span></td>
+						</tr>
+						<tr>${Willpowerdots}</tr>
+						<tr>${Willpowercheck}</tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Mana</span></td>
+						</tr>
+						<tr>${Mana1}</tr>
+						<tr>${Mana2}</tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Gnosis</span></td>
+						</tr>
+						<tr>${Gnosis}</tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Wisdom</span></td>
+						</tr>
+						${Wisdom}
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<table width="100%" cellpadding="2" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Arcana</span></td>
+						</tr>
+						<tr>${Death}</tr>
+						<tr>${Fate}</tr>
+						<tr>${Forces}</tr>
+						<tr>${Life}</tr>
+						<tr>${Matter}</tr>
+						<tr>${Mind}</tr>
+						<tr>${Prime}</tr>
+						<tr>${Space}</tr>
+						<tr>${Spirit}</tr>
+						<tr>${Time}</tr>
+					</table>
+				</td>
+				<td valign="top">
+					<table width="100%" cellpadding="2" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Armor</span></td>
+						</tr>
+						<tr>
+							<td align="left">Type</td>
+							<td align="left">Points</td>
+						</tr>
+						<tr>
+							${Type1}
+							${Points1}
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Protective Spells</span></td>
+						</tr>
+						<tr>
+							<td align="left">Name</td>
+							<td align="left">Points</td>
+						</tr>
+						
+						<tr>
+							${Name1}
+							${Points2}
+						</tr>
+						<tr>
+							${Name2}
+							${Points3}
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" style="padding: 0px; background-color: #000000;"><img src="images/0.gif" width="1"></td>
+	</tr>
+	<tr>
+		<td width="100%" align="right">
+			${buttons}
+		</td>
+	</tr>
+	</form>
+</table>

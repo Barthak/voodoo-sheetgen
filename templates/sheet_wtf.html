@@ -1,0 +1,216 @@
+${message}
+<table width="725" class="table_white">
+	<form action="${prepath}/sheet/${sheetaction}/${type_or_id}" method="post">
+	<input type="hidden" name="sheet[id]" value="${sheetid}" />
+	<tr>
+		<td width="100%">
+		<center><img src="${prepath}/images/sheetgen/wtf_logo.gif" /></center>
+		<table width="100%">
+			<tr>
+				${Name}
+				${Concept}
+				${Auspice}
+			</tr>
+			<tr>
+				${Player}
+				${Virtue}
+				${Tribe}
+			</tr>
+			<tr>
+				${Chronicle}
+				${Vice}
+				${Lodge}
+			</tr>
+		</table>
+		<br>
+		<table width="100%" cellpadding="4" cellspacing="1">
+			<tr>
+				<td class="td_grey" colspan="7" align="center"><span class="section_header">Attributes</span></td>
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Power</span></td>
+				${Intelligence}
+				${Strength}
+				${Presence}
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Finesse</span></td>
+				${Wits}
+				${Dexterity}
+				${Manipulation}
+			</tr>
+			<tr>
+				<td class="td_grey" align="right"><span class="header">Resistance</span></td>
+				${Resolve}
+				${Stamina}
+				${Composure}
+			</tr>
+		</table>
+		<br>
+		<table width="100%" cellpadding="0" cellspacing="1">
+			<tr>
+				<td valign="top" style="padding: 4px;" align="center">
+					<span class="section_header">Skills</span></td>
+				<td valign="top" rowspan="4" style="background-color: #000000;" width="1"><img src="images/0.gif" width="1"></td>
+				<td valign="top" class="td_grey" style="padding: 4px;" colspan="2" align="center">
+					<span class="section_header">Other Traits</span></td>
+			</tr>
+			<tr>
+				<td valign="top" style="background-color: #000000;" align="center"><img src="images/0.gif" width="1"></td>
+				<td valign="top" style="background-color: #000000;" colspan="2"><img src="images/0.gif" width="1"></td>
+			</tr>
+			<tr>
+				<td style="padding: 4px;" valign="top" width="33%" rowspan="2">
+					<table width="100%" cellpadding="2" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Mental</span><br>
+								(-3 unskilled)
+							</td>
+						</tr>
+						<tr>${Academics}</tr>
+						<tr>${Computer}</tr>
+						<tr>${Crafts}</tr>
+						<tr>${Investigation}</tr>
+						<tr>${Medicine}</tr>
+						<tr>${Occult}</tr>
+						<tr>${Politics}</tr>
+						<tr>${Science}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Physical</span><br>
+								(-1 unskilled)
+							</td>
+						</tr>
+						<tr>${Athletics}</tr>
+						<tr>${Brawl}</tr>
+						<tr>${Drive}</tr>
+						<tr>${Firearms}</tr>
+						<tr>${Larceny}</tr>
+						<tr>${Stealth}</tr>
+						<tr>${Survival}</tr>
+						<tr>${Weaponry}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Social</span><br>
+								(-1 unskilled)
+							</td>
+						</tr>
+						<tr>${AnimalKen}</tr>
+						<tr>${Empathy}</tr>
+						<tr>${Expression}</tr>
+						<tr>${Intimidation}</tr>
+						<tr>${Persuasion}</tr>
+						<tr>${Socialize}</tr>
+						<tr>${Streetwise}</tr>
+						<tr>${Subterfuge}</tr>
+					</table>
+				</td>
+				<td style="padding: 4px;" valign="top" width="34%">
+					<table width="100%" cellpadding="1" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Merits</span></td>
+						</tr>
+						<tr>${merits1}</tr>
+						<tr>${merits2}</tr>
+						<tr>${merits3}</tr>
+						<tr>${merits4}</tr>
+						<tr>${merits5}</tr>
+						<tr>${merits6}</tr>
+						<tr>${merits7}</tr>
+						<tr>${merits8}</tr>
+						<tr>${merits9}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Flaws</span></td>
+						</tr>
+						<tr>${flaws1}</tr>
+						<tr>${flaws2}</tr>
+						<tr>${flaws3}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Renown</span></td>
+						</tr>
+						<tr>${Purity}</tr>
+						<tr>${Glory}</tr>
+						<tr>${Honor}</tr>
+						<tr>${Wisdom}</tr>
+						<tr>${Cunning}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>${Size}</tr>
+						<tr>${Defense}</tr>
+						<tr>${InitiativeMod}</tr>
+						<tr>${Speed}</tr>
+						<tr>${Armor}</tr>
+					</table>
+				</td>
+				<td style="padding: 4px;" valign="top" width="33%">
+					<table width="100%" cellpadding="2" cellspacing="1">
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Health</span><br />
+								<span style="letter-spacing: -1;">(+2 Dalu Form, +4 Gaura Form, +3 Urshul Form)</span></td>
+						</tr>
+						<tr>${Healthdots}</tr>
+						<tr>${Healthcheck}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Willpower</span></td>
+						</tr>
+						<tr>${Willpowerdots}</tr>
+						<tr>${Willpowercheck}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">PrimalUrge</span></td>
+						</tr>
+						<tr>${PrimalUrge}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Essence</span></td>
+						</tr>
+						<tr>${Essence1}</tr>
+						<tr>${Essence2}</tr>
+						<tr><td colspan="2" align="center"><br></td></tr>
+						<tr>
+							<td colspan="2" align="center"><span class="section_header">Harmony</span></td>
+						</tr>
+						${Harmony}
+						<tr><td colspan="2" align="center"><br></td></tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<table width="100%" cellpadding="1" cellspacing="1">
+						<tr>
+							<td colspan="2" align="left"><span class="section_header">Weapon/Attack</span></td>
+							<td colspan="2" align="left"><span class="section_header">DiceMod.</span></td>
+							<td colspan="2" align="left"><span class="section_header">Range</span></td>
+							<td colspan="2" align="left"><span class="section_header">Rate</span></td>
+							<td colspan="2" align="left"><span class="section_header">Clip</span></td>
+						</tr>
+						<tr>${weapon1}${dicemod1}${range1}${rate1}${clip1}</tr>
+						<tr>${weapon2}${dicemod2}${range2}${rate2}${clip2}</tr>
+						<tr>${weapon3}${dicemod3}${range3}${rate3}${clip3}</tr>
+						<tr>${weapon4}${dicemod4}${range4}${rate4}${clip4}</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" style="letter-spacing: -1;">Attributes 5/4/3 &#149; Skills 11/7/4 (+3 Specialties) &#149; Auspice: choose 1 free Skill Specialty &#149; Tribe &#149; Renown and Gifts: 1 for auspice, 1 for tribe, 1 of your choice &#149; Merits 7 &#149; (Buying
+the fifth dot in Attributes, Skills or Merits costs two points) &#149; Health = Stamina + Size &#149; Willpower = Resolve + Composure &#149; Size = 5 for adult human-sized werewolf &#149; 
+Defense = Lowest of Dexterity or Wits &#149; Initiative Mod = Dexterity + Composure &#149; Speed = Strength + Dexterity +5 &#149; Starting Harmony = 7 &#149; Primal Urge starts at 1
+dot &#149; Essence=Harmony</td>
+	</tr>
+	<tr>
+		<td width="100%" style="padding: 0px; background-color: #000000;"><img src="images/0.gif" width="1"></td>
+	</tr>
+	<tr>
+		<td width="100%" align="right">
+			${buttons}
+		</td>
+	</tr>
+	</form>
+</table>

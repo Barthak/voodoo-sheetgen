@@ -1,0 +1,11 @@
+body {
+	margin: 10px;
+	background-image: None;
+	background-color: #FFF;
+	color: #000;
+}
+
+table.table_white {
+	border: 0px;
+	text-align: left;
+}

@@ -1,0 +1,10 @@
+<p>
+<select id="sheet_type">
+{foreach name=index item=s from=$sheets}
+			<option value="${s}">${index}</option>
+{/foreach}
+</select> <input type="button" onclick="document.location.href='${prepath}/sheet/create/'+document.getElementById('sheet_type').value" value="Create" />
+</p>
+<p>
+<input id="sheet_id" size="4" type="text" /> <input type="button" onclick="document.location.href='${prepath}/sheet/'+document.getElementById('sheet_id').value" value="Load" />
+</p>

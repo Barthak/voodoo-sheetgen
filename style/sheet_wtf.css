@@ -1,0 +1,110 @@
+.white_text
+{
+	color: #FFFFFF;
+}
+
+.table_white
+{
+	background-color: #FFFFFF;
+	border: 1px solid #825A4B;
+	padding: 4px;
+}
+
+.td_grey
+{
+	background-color: #CCCCCC;
+}
+
+.td_nopadding
+{
+	padding: 0px;
+}
+
+.highlight_color
+{
+	color: #825A4B;
+}
+
+SELECT
+{
+	background-color: #000000;
+	color: #825A4B;
+	border: 1px solid #CCCCCC;
+}
+
+.section_header
+{
+	color: #825A4B;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.header
+{
+	font-size: 10pt;
+}
+
+TEXTAREA
+{
+	font-size: 10pt;
+}
+
+.message_header
+{
+	background-color: #CCCCCC;
+	color: #dd0000;
+	font-weight: bold;
+	font-size: 10pt;
+	padding: 4px 10px 4px 10px;
+}
+
+.input
+{
+	border: 1px solid #606060;
+	background-color: #212121;
+	color: #825A4B;
+	font-family: verdana;
+}
+
+.section_option
+{
+	color: #FFFFFF;
+}
+
+.copyright
+{ 
+	font-size: 10px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #dddddd; 
+	letter-spacing: -1px;
+}
+
+.copyright:link {text-decoration: none; color:#888899;}
+.copyright:visited {text-decoration: none; color:#888899;}
+.copyright:active {text-decoration: none; color:#dddddd;}
+.copyright:hover {text-decoration: underline; color:#444444;}
+
+
+.small_text
+{
+	font-size: 10px;
+}
+
+.button
+{
+	font-family: verdana;
+	font-size:10pt;
+	color: #000000;
+	border: 1px solid;
+	border-color: #AAAAAA #333333 #444444 #999999;
+	background-color: #888888;
+}
+
+.input2
+{
+	border: 1px solid #CCCCCC;
+	font-size: 10px;
+	background-color: #FFFFFF;
+	color: #825A4B;
+	font-family: verdana;
+}
